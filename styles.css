@@ -15,26 +15,8 @@ body {
 
 ul {
     margin-left: 3rem;
+    padding: 0;
 }
-
-@media screen and (max-width: 400px) {
-    .content {
-        margin: 1rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    ul {
-        margin-left: 0;
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    body {
-        margin-top: 10%;
-    }
-}
-
 
 div {
     margin-bottom: 2rem;
@@ -133,4 +115,28 @@ ul {
 
 .buttons {
     margin-top: 5rem;
+}
+
+@media screen and (max-width: 400px) {
+    .content {
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    ul {
+        margin-left: 0;
+    }
+    .card-header {
+        font-size: 2.25rem;
+    }
+    body {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        margin-top: 10%;
+    }
 }
